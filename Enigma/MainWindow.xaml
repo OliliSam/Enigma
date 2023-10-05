@@ -1,0 +1,123 @@
+﻿<Window x:Class="Enigma.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Enigma"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtOut" HorizontalAlignment="Left" Margin="45,0,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="246" Height="49"/>
+        <Label Content="Output" HorizontalAlignment="Left" Margin="0,8,0,0" VerticalAlignment="Top"/>
+        <Label Content="Reflected Output" HorizontalAlignment="Left" Margin="296,7,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.287,0.614"/>
+        <TextBox x:Name="txtReflect" HorizontalAlignment="Left" Margin="395,-1,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="256" Height="51"/>
+        <Rectangle HorizontalAlignment="Left" Height="414" Margin="680,20,0,0" Stroke="Black" VerticalAlignment="Top" Width="120"/>
+        <Label x:Name="lblInput" Content="Input" HorizontalAlignment="Left" Margin="178,55,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.14,0.02"/>
+        <TextBox x:Name="txtInput" HorizontalAlignment="Left" Margin="223,56,0,0" TextWrapping="Wrap" Text=" " VerticalAlignment="Top" Width="236" Height="49"/>
+        <CheckBox Content="CheckBox" HorizontalAlignment="Left" Margin="686,26,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.567,-0.395"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="3,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="51,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="99,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="147,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="195,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="243,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="291,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="339,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="387,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="435,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="483,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="531,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="579,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="627,380,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <ComboBox HorizontalAlignment="Left" Margin="680,123,0,0" VerticalAlignment="Top" Width="36" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.55,4.203"/>
+        <ComboBox HorizontalAlignment="Left" Margin="722,123,0,0" VerticalAlignment="Top" Width="36" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.561,-0.011"/>
+        <ComboBox HorizontalAlignment="Left" Margin="764,123,0,0" VerticalAlignment="Top" Width="36" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.419,4.657"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="686,46,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="688,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,-1.603"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="752,46,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="719,-5,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="750,72,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,-1.603"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="686,92,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="680,175,0,0" VerticalAlignment="Top" Width="36" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.55,4.203"/>
+        <ComboBox HorizontalAlignment="Left" Margin="722,175,0,0" VerticalAlignment="Top" Width="36" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.561,-0.011"/>
+        <ComboBox HorizontalAlignment="Left" Margin="763,175,0,0" VerticalAlignment="Top" Width="36" SelectionChanged="ComboBox_SelectionChanged" RenderTransformOrigin="0.419,4.657"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="688,144,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="686,200,0,0" VerticalAlignment="Top"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="688,226,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.638,-1.603" Width="102"/>
+        <TextBox HorizontalAlignment="Left" Margin="688,254,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="102"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="686,277,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="686,335,0,0" VerticalAlignment="Top"/>
+        <Label Content="Label" HorizontalAlignment="Left" Margin="684,381,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.421,0.618"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="3,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="51,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="99,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="147,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="195,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="243,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="291,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="339,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="387,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="435,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="483,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="531,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="579,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="627,329,0,0" Stroke="Black" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.535,0.384"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="3,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="51,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="99,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="147,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="195,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="243,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="291,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="339,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="387,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="435,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="483,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="531,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="579,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="627,277,0,0" Stroke="Black" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="3,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="51,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="99,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="147,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="195,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="243,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="291,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="339,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="387,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="435,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="483,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="531,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="579,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="627,226,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="3,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="51,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="99,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="147,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="195,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="243,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="291,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="339,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="387,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="435,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="483,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="531,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="579,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="627,175,0,0" Stroke="#FF191CCA" VerticalAlignment="Top" Width="43" RenderTransformOrigin="0.535,0.384"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="3,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="51,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="99,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="147,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="195,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="243,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="291,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="339,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="387,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="435,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="483,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="531,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="579,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+        <Ellipse HorizontalAlignment="Left" Height="47" Margin="627,123,0,0" Stroke="Blue" VerticalAlignment="Top" Width="43"/>
+
+    </Grid>
+</Window>
